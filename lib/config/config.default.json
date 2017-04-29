@@ -15,5 +15,6 @@
         "port": 465 ,
         "username":"itminus@163.com",
         "password":"your_pass" 
-    }
+    },
+    "baseDir":"C:/Users/itminus/Downloads/download-from-all-it-ebooks"
 }
