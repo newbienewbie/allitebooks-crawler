@@ -1,5 +1,4 @@
 const Crawler=require('./lib/crawler');
-const changzhou=require('./seed/changzhou-50.json');
 const url=require('url');
 
 
