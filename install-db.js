@@ -1,4 +1,4 @@
-const domain=require('./lib/domain/domain');
+const domain=require('./lib/domain');
 
 domain.sequelize.sync({
     force:true
