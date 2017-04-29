@@ -1,0 +1,23 @@
+{
+  "name": "ershoufang-crawler",
+  "version": "0.1.0",
+  "description": "房天下二手房定向爬虫",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-db":"node install-db.js",
+    "test": "mocha test --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mysql": "^2.11.1",
+    "node-fetch": "^1.6.3",
+    "sequelize": "^3.24.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
