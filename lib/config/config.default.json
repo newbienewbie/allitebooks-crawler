@@ -19,7 +19,8 @@
     "baseDir":"C:/Users/itminus/Downloads/download-from-all-it-ebooks",
     "crawler":{
         "timeout":30000,
-        "follow":20
+        "follow":20,
+        "sleepWhenFailed":120000
     },
     "downloader":{
         "timeout":1800000,
