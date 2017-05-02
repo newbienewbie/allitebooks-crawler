@@ -13,7 +13,7 @@ switch(mode){
         scheduleDetail(5,5*1000);
         break;
     case "attachment":
-        scheduleAttachment(1,5*1000);
+        scheduleAttachment(5,5*1000);
         break;
     default:
         console.log(`syntax: node index.js [mode]\r\n\twhere mode is scheme| detail | attachment `);
