@@ -1,4 +1,4 @@
-const {promiseWait,processScheme,processDetail,scheduleScheme,scheduleDetail}=require('./lib/task');
+const {promiseWait,processScheme,processDetail,scheduleScheme,scheduleDetail,scheduleAttachment}=require('./lib/task');
 
 const args=process.argv.slice(1);
 
@@ -10,10 +10,13 @@ switch(mode){
         scheduleScheme(24*60*60*1000);
         break;
     case "detail":
-        scheduleDetail(5,4*60*1000);
+        scheduleDetail(5,5*1000);
+        break;
+    case "attachment":
+        scheduleAttachment(1,5*1000);
         break;
     default:
-        console.log(`syntax: node index.js [mode]`);
+        console.log(`syntax: node index.js [mode]\r\n\twhere mode is scheme| detail | attachment `);
         break;
 }
 
