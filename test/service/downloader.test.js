@@ -1,5 +1,5 @@
 const assert=require('assert');
-const {download}=require('../../../lib/crawler/detail-crawler/downloader');
+const {download}=require('../../lib/service/downloader');
 
 describe('downloader tester',function(done){
     it('#download() jpg',function(){
