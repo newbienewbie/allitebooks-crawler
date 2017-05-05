@@ -8,11 +8,18 @@ describe('downloader tester',function(done){
         let url="http://www.allitebooks.com/wp-content/uploads/2015/04/Foundation-HTML5-with-CSS3.jpeg";
         return download(url,__dirname,(chunck,total)=>{
             accumulated+=Buffer.from(chunck).length;
-            console.log(`percentage: ${accumulated/total*100} %`);
+            const percentage=Number(accumulated/total*100).toFixed(2);
+            console.log(`percentage: ${percentage} %`);
         });
     });
     it('#download() pdf',function(){
         this.timeout(500000);
-        return download("http://file.allitebooks.com/20150422/Foundation-HTML5-with-CSS3.pdf",__dirname);
+        let url="http://file.allitebooks.com/20150422/Foundation-HTML5-with-CSS3.pdf";
+        let accumulated=0;
+        return download(url,__dirname,(chunck,total)=>{
+            accumulated+=Buffer.from(chunck).length;
+            const percentage=Number(accumulated/total*100).toFixed(2);
+            console.log(`percentage: ${percentage} %`);
+        });
     });
 });
