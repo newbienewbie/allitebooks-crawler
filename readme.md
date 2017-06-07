@@ -23,17 +23,26 @@ node install-db.js
 
 ## 启动
 
-启动进程，周期性抓取电子书基本信息
+
+运行命令：
+```
+node index.js schedule
+```
+
+也可以分进程单独启动
+
+1.启动进程，周期性抓取电子书基本信息
 ```
 > node index.js scheme
 ```
 
-启动进程，抓取每本电子书的详情
+2.启动进程，抓取每本电子书的详情
 ```
 > node index.js detail
 ```
 
-启动进程，下载电子书的附件
+3.启动进程，下载电子书的附件
 ```
 > node index.js attachment
 ```
+
