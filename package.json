@@ -16,7 +16,8 @@
     "log-update": "^2.0.0",
     "mysql": "^2.11.1",
     "node-fetch": "^1.6.3",
-    "sequelize": "^3.24.4"
+    "sequelize": "^3.24.4",
+    "webbot-downloader": "^0.1.2"
   },
   "devDependencies": {
     "mocha": "^3.1.2"
