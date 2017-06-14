@@ -36,7 +36,7 @@ node index.js schedule
 
 所以，上述命令等价于分进程单独启动
 
-1.启动进程，周期性抓取电子书基本信息
+1.启动进程，周期性抓取电子书概略信息
 ```
 > node index.js scheme
 ```
@@ -54,6 +54,7 @@ node index.js schedule
 ## demo 
 
 下载后的文件：
-![screenshot](https://github.com/newbienewbie/allitebooks-crawler/raw/master/demo/screenshot1.png)
+![screenshot](https://raw.githubusercontent.com/newbienewbie/allitebooks-crawler/master/demo/scrennshot1.png)
+
 数据库：
-![screenshot](https://github.com/newbienewbie/allitebooks-crawler/raw/master/demo/screenshot2.png)
+![screenshot](https://raw.githubusercontent.com/newbienewbie/allitebooks-crawler/master/demo/scrennshot2.png)
