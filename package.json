@@ -1,15 +1,15 @@
 {
-  "name": "ershoufang-crawler",
+  "name": "allitebooks-crawler",
   "version": "0.1.0",
-  "description": "房天下二手房定向爬虫",
+  "description": "allitebooks.com定向爬虫",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js schedule",
     "install-db": "node install-db.js",
     "test": "mocha test --recursive"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["allitebooks crawler","crawler","spider"],
+  "author": "itminus@hotmail.com",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
